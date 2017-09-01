@@ -1,0 +1,768 @@
+*{
+	margin:0;
+	padding:0;
+}
+ul{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	color:#4E5659;
+}
+input{
+	border: none;
+}
+.comWidth{
+	width: 1200px;
+	height: auto;
+	margin:0 auto;
+	clear: both;
+}
+.hide{
+	display: none;
+}
+.red{
+	color: #DF4532;
+}
+.underline{
+	border-bottom: 1px solid red;
+}
+
+/*header部分*/
+.header{
+	width: 100%;
+	height:45px;
+	background:#F7F7F7;
+	font-size:12px;
+}
+.header .comWidth{
+	height: 44px;
+	border-bottom: 1px solid #CED1D6;
+}
+.header .leftArea{
+	width: auto;
+	height:44px;
+	line-height: 44px;
+	float:left;
+	margin-left: 5px;
+}
+.header .leftArea ul li{
+	float: left;
+	margin-left: 10px;
+}
+.header .leftArea ul li a:hover{
+	color: red;
+}
+.header .leftArea .login{
+	color:#EB4838;
+}
+.header .rightArea{
+	float: right;
+	margin-right: 5px
+}
+.header .rightArea ul li{
+	width: auto;
+	height:44px;
+	line-height: 44px;
+	float: left;
+	margin-right: 25px;
+}
+.header .rightArea ul li a:hover{
+	color:red;
+}
+.header .rightArea ul li span{
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	margin-top:14px;
+	margin-left: 3px;
+	float: right;
+	background: url(../img/icon/21.png) no-repeat center;
+}
+
+
+
+/*logoPage部分*/
+.logoPage{
+	width: 100%;
+	height: 124px;
+	background:#F7F7F7;
+	position: relative;
+}
+.logoPage .logo{
+	width: 136px;
+	height:48px;
+	margin-top: 36px;
+	margin-left: 15px;
+	margin-right: 142px;
+	float: left;
+}
+.logoPage .search{
+	width: 678px;
+	height: 40px;
+	float: left;
+	margin-top: 38px;
+	background: red;
+	font-size: 16px;
+	border: 1px solid #CED1D6;
+}
+.logoPage .search .searchTxt{
+	width: 590px;
+	height:40px;
+	padding-left: 16px;
+	float: left;
+	font-size: 13px;
+}
+.logoPage .search .searchBtn{
+	width: 72px;
+	height: 40px;
+	background: #000;
+	color: #fff;
+	font-size: 13px;
+}
+.logoPage .shopcar{
+	width: 160px;
+	height: 42px;
+	background: #DF4532;
+	float: right;
+	margin-right: 15px;
+	margin-top: 38px;
+	font-size: 13px;
+	color:#fff;
+}
+.logoPage .shopcar:hover{
+	background-color: #fff;
+	color: #DF4532;
+	border: 1px solid #ccc;
+	border-bottom: none;
+}
+.logoPage .shopcar .car{
+	display: inline-block;
+	width: 74px;
+	height: 28px;
+	padding-top:15px;
+	padding-left: 15px;
+	padding-right: 15px;
+	float: left;
+	background: url(../img/icon/26.png) no-repeat 15px 14px;
+	text-indent: 26px;
+}
+.logoPage .shopcar:hover .car{
+	background: url(../img/icon/25.png) no-repeat 15px 14px;
+}
+.logoPage .shopcar .num{
+	display: inline-block;
+	width: 40px;
+	height: 18px;
+	line-height: 18px;
+	margin-top:15px;
+	padding-left: 15px;
+	border-left: 1px solid #fff;
+	float: left;
+	background: url(../img/icon/23.png) no-repeat 32px -2px;
+}
+.logoPage .shopcar:hover .num{
+	border-left: 1px solid #DF4532;
+	background: url(../img/icon/24.png) no-repeat 32px -2px;
+}
+.logoPage .shopcarList{
+	width: 250px;
+	height: 200px;
+	background: #fff;
+	position: absolute;
+	top:80px;
+	right: 41px;
+	border:1px solid #ccc;
+	overflow-y:auto;
+}
+.logoPage .shopcarList h5{
+	width: 100%;
+	height: 20px;
+	padding-top: 5px;
+	line-height: 20px;
+}
+.logoPage .shopcarList ul{
+	margin-left: 10px;
+	margin-top: 10px;
+}
+.logoPage .shopcarList ul li{
+	height: 50px;
+	line-height: 50px;
+	padding:10px 0;
+}
+.logoPage .shopcarList ul li img{
+	height: 50px;
+	width: auto;
+	margin-right: 40px;
+	float: left;
+	border: 1px solid #999;
+}
+.logoPage .shopcarList ul li span{
+	font-size: 13px;
+}
+.logoPage .shopcarList ul li .price{
+	margin-left: 40px;
+}
+.logoPage .shopcarList .result{
+	height: 50px;
+	line-height: 50px;
+	background-color: gray;
+	font-size: 12px;
+}
+.logoPage .shopcarList .result input{
+	width: 50px;
+	height: 20px;
+	margin-top: 15px;
+	margin-right: 10px;
+	float: right;
+	background-color: red;
+	border:none;
+	border-radius: 5px;
+}
+/*navPage部分*/
+.navPage{
+	width: 100%;
+	height: 48px;
+	background: #000;
+	color:#fff;
+}
+.navPage .comWidth{
+	position: relative;
+}
+.navPage h4{
+	width: 208px;
+	height: 56px;
+	line-height: 56px;
+	background: url(../img/icon/18.png) no-repeat 22px 20px;
+	background-color: #BA3A2B;
+	text-indent: 50px;
+	position: absolute;
+	top:-8px;
+	left: 0px;
+}
+.navPage ul{
+	width: auto;
+	height: 48px;
+	line-height: 48px;
+	float: left;
+	margin-left: 233px;
+}
+.navPage ul li{
+	float: left;
+	margin-right: 55px;
+}
+.navPage ul li a{
+	color:#fff;
+}
+
+/*bannerPage部分*/
+.bannerPage{
+	width: 100%;
+	height: 512px;
+}
+.bannerPage .navList{
+	width: 208px;
+	height: 462px;
+	padding-top:2px;
+	background: #DF4532;
+	float: left;
+	position: relative;
+}
+.bannerPage .navSecondList{
+	width: 600px;
+	height: 462px;
+	background: #ddd;
+	margin-top: 2px;
+	position: absolute;
+	left: 208px;
+	top:0px;
+	z-index: 1;
+}
+.bannerPage .navSecondList .listTitle{
+	width: auto;
+	height: 20px;
+	clear: both;
+	margin-left: 120px;
+	margin-top: 10px;
+}
+.bannerPage .navSecondList .listTitle li{
+	width: 80px;
+	height: 20px;
+	text-align: center;
+	line-height: 20px;
+	float: left;
+	margin-right: 20px;
+	background-color: #ccc;
+}
+.bannerPage .navSecondList .listDetail{
+	width: auto;
+	height: auto;
+	margin-left: 30px;
+	margin-top: 30px;
+	font-size: 13px;
+	color: #333;
+}
+.bannerPage .navSecondList .listDetail li{
+	width: auto;
+	height: 40px;
+	line-height: 40px;
+	background:none;
+}
+.bannerPage .navList ul li{
+	width: auto;
+	height: 33px;
+	line-height: 33px;
+	padding-left: 10px;
+	background:url(../img/icon/27.png) no-repeat 180px 10px;
+}
+.bannerPage .navList ul li:hover{
+	background-color: #ddd;
+}
+.bannerPage .navList ul li a{
+	color:#fff;
+	font-size: 14px;
+	font-weight: normal;
+	display: inline-block;
+	float: left;
+}
+/*.bannerPage .navList ul li span{
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	margin-left: 175px;
+	transform: rotate(-90deg);
+	background: url(../img/icon/23.png) no-repeat right;
+}*/
+.bannerPage .bannerBox{
+	width: 730px;
+	height: 454px;
+	float: left;
+	margin-top: 10px;
+	margin-left: 6px;
+	position: relative;
+}
+.bannerPage .bannerBox .imgBox{
+	width: 730px;
+	height: 454px;
+	overflow: hidden;
+}
+.bannerPage .bannerBox .imgBox .bannerImg{
+	width: 730px;
+	height: 454px;
+}
+.bannerPage .bannerBox .imgBox .img1{
+	background: url(../img/focus-carousel/1.jpg) no-repeat center;
+}
+.bannerPage .bannerBox .imgBox .img2{
+	background: url(../img/focus-carousel/2.jpg) no-repeat center;
+}
+.bannerPage .bannerBox .imgBox .img3{
+	background: url(../img/focus-carousel/3.jpg) no-repeat center;
+}
+.bannerPage .bannerBox .imgBox .img4{
+	background: url(../img/focus-carousel/4.jpg) no-repeat center;
+}
+.bannerPage .bannerBox .imgBox .img5{
+	background: url(../img/focus-carousel/5.jpg) no-repeat center;
+}
+.bannerPage .bannerBox .imgBox .img6{
+	background: url(../img/focus-carousel/6.jpg) no-repeat center;
+}
+.bannerPage .bannerBox .prev{
+	width: 40px;
+	height: 80px;
+	position: absolute;
+	top:50%;
+	left: 0;
+	margin-top: -40px;
+	background-color: #999;
+	border:none;
+	opacity: 0.5;
+}
+.bannerPage .bannerBox .prev img,.bannerPage .bannerBox .next img{
+	width: 32px;
+	height: 32px;
+	margin:24px 4px;
+}
+.bannerPage .bannerBox .prev img{
+	transform: rotate(-90deg);
+}
+.bannerPage .bannerBox .next img{
+	transform: rotate(90deg);
+}
+.bannerPage .bannerBox .next{
+	width: 40px;
+	height: 80px;
+	position: absolute;
+	top:50%;
+	right: 0;
+	margin-top: -40px;
+	border:none;
+	opacity: 0.5;
+	background-color: #999;
+
+}
+.bannerPage .bannerBox .prev:hover,.bannerPage .bannerBox .next:hover{
+	background-color: #ccc;
+}
+.bannerPage .bannerBox .dots{
+	width: auto;
+	height: 12px;
+	margin:0 auto;
+	position: absolute;
+	bottom: 10px;
+	left: 300px;
+}
+.bannerPage .bannerBox .dots span{
+	display: inline-block;
+	width: 12px;
+	height: 12px;
+	margin-right: 5px;
+	border:1px solid #fff;
+	border-radius: 50px;
+	opacity: 0.7;
+}
+.selected{
+	background: #fff;
+}
+.bannerPage .bannerInfo{
+	width: 248px;
+	height: 452px;
+	border: 1px solid #CED1D6;
+	margin-top: 10px;
+	margin-left: 6px;
+	float: left;
+	font-size: 13px;
+
+}
+.bannerPage .bannerInfo .infoList{
+	width: auto;
+	height: 162px;
+	padding-top:20px;
+	padding-left: 20px;
+}
+.bannerPage .bannerInfo .infoList h4{
+	color: #DF4532;
+	font-size: 16px;
+	float: left;
+}
+.bannerPage .bannerInfo .infoList .more{
+	display: inline-block;
+	float:left;
+	line-height: 18px;
+	margin-left: 120px;
+	color:#4E5659;
+}
+.bannerPage .bannerInfo .infoList .more:hover{
+	color: #DF4532;
+}
+.bannerPage .bannerInfo .infoList ul{
+	clear: both;
+	margin-top: 30px;
+}
+.bannerPage .bannerInfo .infoList ul li{
+	line-height: 24px;
+}
+.bannerPage .bannerInfo .infoIcon{
+	width: auto;
+	height: 180px;
+}
+.bannerPage .bannerInfo .infoIcon table{
+	width: 100%;
+	height: 180px;
+	border-spacing: 0;
+}
+.bannerPage .bannerInfo .infoIcon table td{
+	width: 62px;
+	height:59px;
+	border-top: 1px solid #CED1D6;
+	border-right: 1px solid #CED1D6;
+	text-align: center;
+}
+.bannerPage .bannerInfo .infoIcon table td.last{
+	border-right: none;
+}
+.bannerPage .bannerInfo .infoIcon table td img{
+	width: 32px;
+	height: 32px;
+}
+.bannerPage .bannerInfo .infoIcon table td a{
+	font-size: 12px;
+	display: block;
+	margin-top:5px;
+}
+.bannerPage .bannerInfo .infoAd{
+	width: auto;
+	height: 90px;
+}
+
+
+/*floorPage部分*/
+.floorPage{
+	width: 100%;
+	height: auto;
+}
+.floorPage .floor{
+	clear: both;
+	margin-top: 10px;
+}
+.floorPage .floorTitle{
+	width: 1200px;
+	height: 39px;
+	margin:0 auto;
+	border-bottom: 1px solid #DF4532;
+}
+.floorPage .floorTitle span.circle{
+	display: inline-block;
+	width: 25px;
+	height: 25px;
+	line-height: 25px;
+	text-align: center;
+	border-radius: 50px;
+	margin-right: 10px;
+	background: #000;
+	color:#fff;
+	float: left;
+}
+.floorPage .floorTitle h2{
+	float: left;
+}
+.floorPage .floorTitle ul{
+	float: right;
+	margin-right: 10px;
+}
+.floorPage .floorTitle ul li{
+	float: left;
+	width: auto;
+	height: 15px;
+	padding-left: 10px;
+	padding-right: 10px;
+	line-height: 15px;
+	font-size: 13px;
+	border-right: 1px solid #999;
+	text-align: center;
+	color: #999;
+	cursor: pointer;
+}
+.floorPage .floorTitle ul li:last-child{
+	border-right: none;
+}
+.floorPage .floorTitle ul span.active{
+	display: block;
+	width: 14px;
+	height: 8px;
+	margin-top: 17px;
+	margin-left: 8px;
+	background: url(../img/floor-arrow.png) no-repeat center;
+}
+.floorPage .floorContent{
+	width: 100%;
+	height: 480px;
+}
+.floorPage .floorContent .item{
+	width: 200px;
+	height: 200px;
+	padding-top:40px;
+	text-align: center;
+	float: left;
+}
+.floorPage .floorContent .item img{
+	width: 114px;
+	height: 114px;
+	margin-bottom: 20px;
+}
+.floorPage .floorContent .item p{
+	font-size: 13px;
+	margin-bottom: 10px;
+}
+.floorPage .floorContent .item p.price{
+	color: #DF4532;
+}
+#five{
+	border-bottom: 1px solid #DADBDD;
+}
+
+/*linkPage部分*/
+.linkPage{
+	width: 100%;
+	height: 138px;
+	clear: both;
+}
+.linkPage .linkItem{
+	width: 232px;
+	height: 102px;
+	float: left;
+	padding-top:36px;
+	padding-left: 34px;
+	padding-right: 34px;
+}
+.linkPage .linkItem ul{
+	margin-top: 10px;
+}
+.linkPage .linkItem ul li{
+	font-size: 13px;
+	float: left;
+	margin-right: 10px;
+	margin-top:10px;
+	color: gray;
+	text-align: center;
+}
+
+/*footer部分*/
+.footer{
+	width: 100%;
+	height: 102px;
+	background: #F4F5F9;
+	font-size: 13px;
+	color: gray;
+}
+.footer ul{
+	width: 700px;
+	height:60px;
+	line-height: 60px;
+	margin:0 auto;
+}
+.footer ul li{
+	float: left;
+	margin-right: 10px;
+	text-align: center;
+}
+.footer p{
+	text-align: center;
+}
+
+
+/*loginPage部分*/
+.loginPage{
+	/*display: none;*/
+	position: relative;
+}
+.loginPage .wrap{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	background-color: #000;
+	opacity: 0.7;
+	z-index: 1;
+}
+.loginPage .loginContent{
+	width: 240px;
+	height: 220px;
+	z-index: 2;
+	background: #fff;
+	position: fixed;
+	left: 0;
+	right: 0;
+	top:0;
+	bottom: 0;
+	margin:auto;
+	padding-top:30px;
+	padding-left:30px;
+	padding-right: 30px;
+}
+.loginPage .loginContent .contentTitle{
+	background: red;
+	clear: both;
+}
+.loginPage .loginContent .contentTitle ul{
+	width: auto;
+	height: 30px;
+	line-height: 30px;
+	float: left;
+}
+.loginPage .loginContent .contentTitle ul li{
+	float: left;
+	margin-right: 20px;
+	font-size: 16px;
+	cursor: pointer;
+}
+.loginPage .loginContent .contentTitle .close{
+	display: inline-block;
+	width: 32px;
+	height: 32px;
+	border-radius: 50px;
+	float: right;
+	cursor: pointer;
+	background: url(../img/icon/20.png) no-repeat center;
+}
+.loginPage .loginContent .contentTitle .close:hover{
+	background-color: #999;
+}
+.loginPage .loginContent{
+	font-size: 12px;
+}
+.loginPage .loginContent .username,.loginPage .loginContent .password{
+	width: 230px;
+	height: 20px;
+	padding-left: 5px;
+	border: 1px solid gray;
+	margin-top: 10px;
+}
+.loginPage .loginContent .autoLogin{
+	font-size: 12px;
+	margin-top: 10px;
+}
+.loginPage .loginContent .btn{
+	width: 240px;
+	height: 36px;
+	border-radius: 5px;
+	background: red;
+	color: #fff;
+	margin-top: 10px;
+}
+.loginPage .loginContent .share{
+	margin-top: 10px;
+	margin-left: 60px;
+}
+.loginPage .loginContent .share li{
+	width: 32px;
+	height: 32px;
+	line-height: 32px;
+	border-radius: 50px;
+	float: left;
+	background: gray;
+	text-align: center;
+	margin-right: 10px;
+}
+
+/*tipNavPage部分*/
+.tipNavPage .comWidth{
+	width: 1200px;
+	height: 100%;
+}
+.tipNavPage .leftNav{
+	width: 30px;
+	height: auto;
+	position: absolute;
+	left: 0px;
+	top:2000px;
+}
+.tipNavPage .leftNav li{
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	margin-top: 2px;
+	text-align: center;
+	background: #ccc;
+}
+.tipNavPage .rightNav{
+	width: 40px;
+	height: auto;
+	position: absolute;
+	right: 0px;
+	top:2000px;
+}
+.tipNavPage .rightNav li{
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	padding-top: 10px;
+	padding-left: 2px;
+	margin-top: 2px;
+	text-align: center;
+	background: #999;
+}
+.tipNavPage .rightNav li img{
+	width: 32px;
+	height: 32px;
+}

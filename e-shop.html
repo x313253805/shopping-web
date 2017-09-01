@@ -1,0 +1,821 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>e-shop.html</title>
+	<link rel="stylesheet" type="text/css" href="css/e-shop.css">
+	<script src="http://libs.baidu.com/jquery/1.9.1/jquery.min.js"></script>
+	<script type="text/javascript" src="js/e-shop.js"></script>
+</head>
+<body>
+	<div class="loginPage hide">
+		<div class="wrap"></div>
+		<div class="loginContent">
+			<div class="contentTitle">
+				<ul >
+					<li class="underline red">登录</li>
+					<li>注册</li>
+				</ul>
+				<span class="close"></span>
+			</div>
+			<div class="contentPart">
+				<div class="loginPart">
+					<input type="text" name="username" class="username" placeholder="请输入用户名" ／>
+					<input type="password" name="password" class="password" placeholder="请输入密码，区分大小写" ／>
+					<input type="checkbox" checked  class="autoLogin"/>下次自动登录
+					<span class="forget">忘记密码</span>
+					<input type="button" value="登录" class="btn" />
+					<ul class="share">
+						<li><img src="img/icon/xinlang.png"></li>
+						<li><img src="img/icon/weixin.png"></li>
+						<li><img src="img/icon/QQ.png"></li>
+					</ul>
+				</div>
+				<div class="resPart hide">
+					<input type="text" name="username" class="username" placeholder="请输入用户名" ／>
+					<input type="password" name="password" class="password" placeholder="请输入密码，区分大小写" ／>
+					<input type="password" name="password" class="password" placeholder="请再次输入密码，区分大小写" ／>
+					<input type="button" class="btn" value="注册" />
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="header" id="top">
+		<div class="comWidth">
+			<div class="leftArea">
+				<ul>
+					<li><a href="#" class="login">亲，请登录</a></li>
+					<li><a href="#" class="register">免费注册</a></li>
+					<li><a href="#">手机逛慕淘</a></li>
+				</ul>
+			</div>
+			<div class="rightArea">
+				<ul class="mainList">
+					<li><a href="#">我的慕淘</a><span></span></li>
+					<li><a href="#">收藏夹</a><span></span></li>
+					<li><a href="#">商品分类</a><span></span></li>
+					<li><a href="#">卖家中心</a><span></span></li>
+					<li><a href="#">联系客服</a><span></span></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="logoPage">
+		<div class="comWidth">
+			<div class="logo">
+				<img src="img/logo.png" />
+			</div>
+			<div class="search">
+				<input type="text"  class="searchTxt" placeholder="灵魂美食一元抢" />
+				<input type="button" class="searchBtn" value="搜索" />
+			</div>
+			<div class="shopcar">
+				<span class="car">购物车</span><span class="num">0</span>
+				
+			</div>
+			<div class="shopcarList hide">
+				<h5>最新加入的商品</h5>
+				<ul>
+					<li><img src="img/cart/1.png"/><span>京东超市</span><span class="price">¥20.0 * 1</span></li>
+					<li><img src="img/cart/2.png"/><span>京东超市</span><span class="price">¥20.0 * 1</span></li>
+					<li><img src="img/cart/3.png"/><span>京东超市</span><span class="price">¥20.0 * 1</span></li>
+					<li><img src="img/cart/4.png"/><span>京东超市</span><span class="price">¥20.0 * 1</span></li>
+					<li><img src="img/cart/5.png"/><span>京东超市</span><span class="price">¥20.0 * 1</span></li>
+					<li><img src="img/cart/1.png"/><span>京东超市</span><span class="price">¥20.0 * 1</span></li>
+					<li><img src="img/cart/1.png"/><span>京东超市</span><span class="price">¥20.0 * 1</span></li>
+					<li><img src="img/cart/1.png"/><span>京东超市</span><span class="price">¥20.0 * 1</span></li>
+				</ul>
+				<div class="result">
+					<span>共计<strong>15</strong>件商品&nbsp;&nbsp;共计<strong>198</strong>元</span>
+					<input type="button" value="结算"/>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="navPage">
+		<div class="comWidth">
+			<h4>商品分类</h4>
+			<ul>
+				<li><a href="#">数码城</a></li>
+				<li><a href="#">天黑黑</a></li>
+				<li><a href="#">团购</a></li>
+				<li><a href="#">发现</a></li>
+				<li><a href="#">二手特价</a></li>
+				<li><a href="#">名品汇</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="bannerPage">
+		<div class="comWidth">
+			<div class="navList">
+				<ul>
+					<li><a href="">家用电器</a><span></span>
+					<div class="navSecondList hide">
+						<ul class="listTitle">
+							<li>家电馆</li>
+							<li>家电服务</li>
+							<li>家电门店</li>
+						</ul>
+						<ul class="listDetail">
+							<li><strong>电视</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;品牌电视&nbsp;｜&nbsp;国产精品&nbsp;｜&nbsp;大牌推荐&nbsp;｜&nbsp;新品促销&nbsp;｜&nbsp;低价优惠&nbsp;｜&nbsp;高端系列</li>
+							<li><strong>空调</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;品牌电视&nbsp;｜&nbsp;国产精品&nbsp;｜&nbsp;大牌推荐&nbsp;｜&nbsp;新品促销&nbsp;｜&nbsp;低价优惠&nbsp;｜&nbsp;高端系列</li>
+							<li><strong>冰箱</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;品牌电视&nbsp;｜&nbsp;国产精品&nbsp;｜&nbsp;大牌推荐&nbsp;｜&nbsp;新品促销&nbsp;｜&nbsp;低价优惠&nbsp;｜&nbsp;高端系列</li>
+							<li><strong>洗衣机</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;品牌电视&nbsp;｜&nbsp;国产精品&nbsp;｜&nbsp;大牌推荐&nbsp;｜&nbsp;新品促销&nbsp;｜&nbsp;低价优惠&nbsp;｜&nbsp;高端系列</li>
+							<li><strong>电灯</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;品牌电视&nbsp;｜&nbsp;国产精品&nbsp;｜&nbsp;大牌推荐&nbsp;｜&nbsp;新品促销&nbsp;｜&nbsp;低价优惠&nbsp;｜&nbsp;高端系列</li>
+							<li><strong>热水器</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;品牌电视&nbsp;｜&nbsp;国产精品&nbsp;｜&nbsp;大牌推荐&nbsp;｜&nbsp;新品促销&nbsp;｜&nbsp;低价优惠&nbsp;｜&nbsp;高端系列</li>
+							<li><strong>加湿器</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;品牌电视&nbsp;｜&nbsp;国产精品&nbsp;｜&nbsp;大牌推荐&nbsp;｜&nbsp;新品促销&nbsp;｜&nbsp;低价优惠&nbsp;｜&nbsp;高端系列</li>
+							<li><strong>空气净化器</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;品牌电视&nbsp;｜&nbsp;国产精品&nbsp;｜&nbsp;大牌推荐&nbsp;｜&nbsp;新品促销&nbsp;｜&nbsp;低价优惠&nbsp;｜&nbsp;高端系列</li>
+						</ul>
+					</div>
+					</li>
+					<li><a href="">手机、运营商、数码</a><span></span>
+					<div class="navSecondList hide">
+						<ul class="listTitle">
+							<li>手机</li>
+							<li>运营商</li>
+							<li>数码</li>
+						</ul>
+						<ul class="listDetail">
+							<li><strong>电视</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;品牌电视&nbsp;｜&nbsp;国产精品&nbsp;｜&nbsp;大牌推荐&nbsp;｜&nbsp;新品促销&nbsp;｜&nbsp;低价优惠&nbsp;｜&nbsp;高端系列</li>
+							<li><strong>空调</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;品牌电视&nbsp;｜&nbsp;国产精品&nbsp;｜&nbsp;大牌推荐&nbsp;｜&nbsp;新品促销&nbsp;｜&nbsp;低价优惠&nbsp;｜&nbsp;高端系列</li>
+							<li><strong>冰箱</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;品牌电视&nbsp;｜&nbsp;国产精品&nbsp;｜&nbsp;大牌推荐&nbsp;｜&nbsp;新品促销&nbsp;｜&nbsp;低价优惠&nbsp;｜&nbsp;高端系列</li>
+							<li><strong>洗衣机</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;品牌电视&nbsp;｜&nbsp;国产精品&nbsp;｜&nbsp;大牌推荐&nbsp;｜&nbsp;新品促销&nbsp;｜&nbsp;低价优惠&nbsp;｜&nbsp;高端系列</li>
+							<li><strong>电灯</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;品牌电视&nbsp;｜&nbsp;国产精品&nbsp;｜&nbsp;大牌推荐&nbsp;｜&nbsp;新品促销&nbsp;｜&nbsp;低价优惠&nbsp;｜&nbsp;高端系列</li>
+							<li><strong>热水器</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;品牌电视&nbsp;｜&nbsp;国产精品&nbsp;｜&nbsp;大牌推荐&nbsp;｜&nbsp;新品促销&nbsp;｜&nbsp;低价优惠&nbsp;｜&nbsp;高端系列</li>
+							<li><strong>加湿器</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;品牌电视&nbsp;｜&nbsp;国产精品&nbsp;｜&nbsp;大牌推荐&nbsp;｜&nbsp;新品促销&nbsp;｜&nbsp;低价优惠&nbsp;｜&nbsp;高端系列</li>
+							<li><strong>空气净化器</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;品牌电视&nbsp;｜&nbsp;国产精品&nbsp;｜&nbsp;大牌推荐&nbsp;｜&nbsp;新品促销&nbsp;｜&nbsp;低价优惠&nbsp;｜&nbsp;高端系列</li>
+						</ul>
+					</div>
+					</li>
+					<li><a href="">电脑、办公</a><span></span>
+					<div class="navSecondList hide">
+						<ul class="listTitle">
+							<li>电脑</li>
+							<li>办公</li>
+							<li></li>
+						</ul>
+					</div>
+					</li>
+					<li><a href="">家居、家具、家装、厨具</a><span></span>
+					<div class="navSecondList hide">
+						<ul class="listTitle">
+							<li>家具</li>
+							<li>家居</li>
+							<li>家装</li>
+						</ul>
+					</div>
+					</li>
+					<li><a href="">男装、女装、童装、内衣</a><span></span>
+					<div class="navSecondList hide">
+						<ul class="listTitle">
+							<li>男装</li>
+							<li>女装</li>
+							<li>内衣</li>
+						</ul>
+					</div>
+					</li>
+					<li><a href="">化妆、清洁、宠物</a><span></span>
+					<div class="navSecondList hide">
+						<ul class="listTitle">
+							<li>化妆</li>
+							<li>清洁</li>
+							<li>宠物</li>
+						</ul>
+					</div>
+					</li>
+					<li><a href="">运动户外、钟表</a><span></span>
+					<div class="navSecondList hide">
+						7
+					</div>
+					</li>
+					<li><a href="">汽车、汽车用品</a><span></span>
+					<div class="navSecondList hide">
+						8
+					</div>
+					</li>
+					<li><a href="">母婴、汽车用品</a><span></span>
+					<div class="navSecondList hide">
+						9
+					</div>
+					</li>
+					<li><a href="">食品、酒类、生鲜、特产</a><span></span>
+					<div class="navSecondList hide">
+						10
+					</div>
+					</li>
+					<li><a href="">医药保健</a><span></span>
+					<div class="navSecondList hide">
+						11
+					</div>
+					</li>
+					<li><a href="">图书、音像、电子书</a><span></span>
+					<div class="navSecondList hide">
+						12
+					</div>
+					</li>
+					<li><a href="">彩票、旅游、充值、票务</a><span></span>
+					<div class="navSecondList hide">
+						13
+					</div>
+					</li>
+					<li><a href="">理财、众筹、白条、保险</a><span></span>
+					<div class="navSecondList hide">
+						14
+					</div>
+					</li>
+				</ul>
+			</div>
+			<div class="bannerBox">
+				<div class="imgBox">
+					<div class="bannerImg img1">
+						
+					</div>
+					<div class="bannerImg img2">
+						
+					</div>
+					<div class="bannerImg img3">
+						
+					</div>
+					<div class="bannerImg img4">
+						
+					</div>
+					<div class="bannerImg img5">
+						
+					</div>
+					<div class="bannerImg img6">
+						
+					</div>
+				</div>
+				<div class="prev"><img src="img/icon/17.png"></div>
+				<div class="next"><img src="img/icon/17.png"></div>
+				<div class="dots">
+					<span class="selected" data="0"></span>
+					<span data="1"></span>
+					<span data="2"></span>
+					<span data="3"></span>
+					<span data="4"></span>
+					<span data="5"></span>
+				</div>
+			</div>
+			<div class="bannerInfo">
+				<div class="infoList">
+					<h4>慕课网</h4><a href="#" class="more">更多></a>
+					<ul>
+						<li><a href="#"><strong>[特惠]</strong>&nbsp;图书馆每满150减50</a></li>
+						<li><a href="#"><strong>[公告]</strong>&nbsp;因广州图书仓搬仓升级配送延迟</a></li>
+						<li><a href="#"><strong>[特惠]</strong>&nbsp;爆款手机12期免息&nbsp;抽奖赢电视</a></li>
+						<li><a href="#"><strong>[公告]</strong>&nbsp;广东、福建受台风影响配送延迟</a></li>
+						<li><a href="#"><strong>[特惠]</strong>&nbsp;大闸蟹领券满399减180</a></li>
+					</ul>
+				</div>
+				<div class="infoIcon">
+					<table >
+						<tr>
+							<td><img src="img/icon/1.png"/><a href="#">话费</a></td>
+							<td><img src="img/icon/2.png"/><a href="#">机票</a></td>
+							<td><img src="img/icon/3.png"/><a href="#">电影票</a></td>
+							<td class="last"><img src="img/icon/4.png"/><a href="#">游戏</a></td>
+						</tr>
+						<tr>
+							<td><img src="img/icon/5.png"/><a href="#">彩票</a></td>
+							<td><img src="img/icon/6.png"/><a href="#">加油卡</a></td>
+							<td><img src="img/icon/7.png"/><a href="#">酒店</a></td>
+							<td class="last"><img src="img/icon/8.png"/><a href="#">火车票</a></td>
+						</tr>
+						<tr>
+							<td><img src="img/icon/9.png"/><a href="#">众筹</a></td>
+							<td><img src="img/icon/10.png"/><a href="#">理财</a></td>
+							<td><img src="img/icon/11.png"/><a href="#">礼品卡</a></td>
+							<td class="last"><img src="img/icon/12.png"/><a href="#">白条</a></td>
+						</tr>
+					</table>
+				</div>
+				<div class="infoAd">
+					<img src="img/ad.png" />
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="floorPage">
+		<div class="comWidth">
+			<div class="floor" id="one">
+				<div class="floorTitle">
+					<span class="circle">1F</span><h2>服装鞋包</h2>
+					<ul>
+						<li class="red">大牌<span class="active"></span></li>
+						<li>男装<span></span></li>
+						<li>女装<span></span></li>
+					</ul>
+				</div>
+				<div class="floorContent">
+						<div>
+							<div class="item">
+								<img src="img/floor/1.png" />
+								<p>匡威男棒球开衫外套2017</p>
+								<p class="price">¥479</p>
+							</div>
+							<div class="item">
+								<img src="img/floor/1.png" />
+								<p>匡威男棒球开衫外套2017</p>
+								<p class="price">¥479</p>
+							</div>
+							<div class="item">
+								<img src="img/floor/1.png" />
+								<p>匡威男棒球开衫外套2017</p>
+								<p class="price">¥479</p>
+							</div>
+							<div class="item">
+								<img src="img/floor/1.png" />
+								<p>匡威男棒球开衫外套2017</p>
+								<p class="price">¥479</p>
+							</div>
+							<div class="item">
+								<img src="img/floor/1.png" />
+								<p>匡威男棒球开衫外套2017</p>
+								<p class="price">¥479</p>
+							</div>
+							<div class="item">
+								<img src="img/floor/1.png" />
+								<p>匡威男棒球开衫外套2017</p>
+								<p class="price">¥479</p>
+							</div>
+							<div class="item">
+								<img src="img/floor/1.png" />
+								<p>匡威男棒球开衫外套2017</p>
+								<p class="price">¥479</p>
+							</div>
+							<div class="item">
+								<img src="img/floor/1.png" />
+								<p>匡威男棒球开衫外套2017</p>
+								<p class="price">¥479</p>
+							</div>
+							<div class="item">
+								<img src="img/floor/1.png" />
+								<p>匡威男棒球开衫外套2017</p>
+								<p class="price">¥479</p>
+							</div>
+							<div class="item">
+								<img src="img/floor/1.png" />
+								<p>匡威男棒球开衫外套2017</p>
+								<p class="price">¥479</p>
+							</div>
+							<div class="item">
+								<img src="img/floor/1.png" />
+								<p>匡威男棒球开衫外套2017</p>
+								<p class="price">¥479</p>
+							</div>
+							<div class="item">
+								<img src="img/floor/1.png" />
+								<p>匡威男棒球开衫外套2017</p>
+								<p class="price">¥479</p>
+							</div>
+						</div>
+						<div class="hide">
+							<div class="item">
+								<img src="img/floor/1.jpg" />
+								<p>必迈一体跑步短袖T恤</p>
+								<p class="price">¥65</p>
+							</div>
+						</div>
+						<div class="hide">
+							<div class="item">
+								<img src="img/floor/2.jpg" />
+								<p>战地吉普三合一冲锋衣</p>
+								<p class="price">¥289</p>
+							</div>
+						</div>
+				</div>
+			</div>
+			<div class="floor" id="two">
+				<div class="floorTitle">
+					<span class="circle">2F</span><h2>个护美妆</h2>
+					<ul>
+						<li class="red">热门<span class="active"></span></li>
+						<li>国际大牌<span></span></li>
+						<li>国际名品<span></span></li>
+					</ul>
+				</div>
+				<div class="floorContent">
+						<div>
+							<div class="item">
+								<img src="img/floor/2.jpg" />
+								<p>匡威男棒球开衫外套2017</p>
+								<p class="price">¥479</p>
+							</div>
+							<div class="item">
+								<img src="img/floor/2.jpg" />
+								<p>匡威男棒球开衫外套2017</p>
+								<p class="price">¥479</p>
+							</div>
+							<div class="item">
+								<img src="img/floor/2.jpg" />
+								<p>匡威男棒球开衫外套2017</p>
+								<p class="price">¥479</p>
+							</div>
+							<div class="item">
+								<img src="img/floor/2.jpg" />
+								<p>匡威男棒球开衫外套2017</p>
+								<p class="price">¥479</p>
+							</div>
+							<div class="item">
+								<img src="img/floor/2.jpg" />
+								<p>匡威男棒球开衫外套2017</p>
+								<p class="price">¥479</p>
+							</div>
+							<div class="item">
+								<img src="img/floor/2.jpg" />
+								<p>匡威男棒球开衫外套2017</p>
+								<p class="price">¥479</p>
+							</div>
+							<div class="item">
+								<img src="img/floor/2.jpg" />
+								<p>匡威男棒球开衫外套2017</p>
+								<p class="price">¥479</p>
+							</div>
+							<div class="item">
+								<img src="img/floor/2.jpg" />
+								<p>匡威男棒球开衫外套2017</p>
+								<p class="price">¥479</p>
+							</div>
+							<div class="item">
+								<img src="img/floor/2.jpg" />
+								<p>匡威男棒球开衫外套2017</p>
+								<p class="price">¥479</p>
+							</div>
+							<div class="item">
+								<img src="img/floor/2.jpg" />
+								<p>匡威男棒球开衫外套2017</p>
+								<p class="price">¥479</p>
+							</div>
+							<div class="item">
+								<img src="img/floor/2.jpg" />
+								<p>匡威男棒球开衫外套2017</p>
+								<p class="price">¥479</p>
+							</div>
+							<div class="item">
+								<img src="img/floor/2.jpg" />
+								<p>匡威男棒球开衫外套2017</p>
+								<p class="price">¥479</p>
+							</div>
+						</div>
+						<div class="hide">
+							<div class="item">
+								<img src="img/floor/6.jpg" />
+								<p>必迈一体跑步短袖T恤</p>
+								<p class="price">¥65</p>
+							</div>
+						</div>
+						<div class="hide">
+							<div class="item">
+								<img src="img/floor/7.jpg" />
+								<p>战地吉普三合一冲锋衣</p>
+								<p class="price">¥289</p>
+							</div>
+						</div>
+				</div>
+			</div>
+			<div class="floor" id="three">
+				<div class="floorTitle">
+					<span class="circle">3F</span><h2>手机通讯</h2>
+					<ul>
+						<li class="red">热门<span class="active"></span></li>
+						<li>品质优选<span></span></li>
+						<li>新机尝鲜<span></span></li>
+					</ul>
+				</div>
+				<div class="floorContent">
+						<div>
+							<div class="item">
+								<img src="img/floor/3.jpg" />
+								<p>匡威男棒球开衫外套2017</p>
+								<p class="price">¥479</p>
+							</div>
+							<div class="item">
+								<img src="img/floor/3.jpg" />
+								<p>匡威男棒球开衫外套2017</p>
+								<p class="price">¥479</p>
+							</div>
+							<div class="item">
+								<img src="img/floor/3.jpg" />
+								<p>匡威男棒球开衫外套2017</p>
+								<p class="price">¥479</p>
+							</div>
+							<div class="item">
+								<img src="img/floor/3.jpg" />
+								<p>匡威男棒球开衫外套2017</p>
+								<p class="price">¥479</p>
+							</div>
+							<div class="item">
+								<img src="img/floor/3.jpg" />
+								<p>匡威男棒球开衫外套2017</p>
+								<p class="price">¥479</p>
+							</div>
+							<div class="item">
+								<img src="img/floor/3.jpg" />
+								<p>匡威男棒球开衫外套2017</p>
+								<p class="price">¥479</p>
+							</div>
+							<div class="item">
+								<img src="img/floor/3.jpg" />
+								<p>匡威男棒球开衫外套2017</p>
+								<p class="price">¥479</p>
+							</div>
+							<div class="item">
+								<img src="img/floor/3.jpg" />
+								<p>匡威男棒球开衫外套2017</p>
+								<p class="price">¥479</p>
+							</div>
+							<div class="item">
+								<img src="img/floor/3.jpg" />
+								<p>匡威男棒球开衫外套2017</p>
+								<p class="price">¥479</p>
+							</div>
+							<div class="item">
+								<img src="img/floor/3.jpg" />
+								<p>匡威男棒球开衫外套2017</p>
+								<p class="price">¥479</p>
+							</div>
+							<div class="item">
+								<img src="img/floor/3.jpg" />
+								<p>匡威男棒球开衫外套2017</p>
+								<p class="price">¥479</p>
+							</div>
+							<div class="item">
+								<img src="img/floor/3.jpg" />
+								<p>匡威男棒球开衫外套2017</p>
+								<p class="price">¥479</p>
+							</div>
+						</div>
+						<div class="hide">
+							<div class="item">
+								<img src="img/floor/6.jpg" />
+								<p>必迈一体跑步短袖T恤</p>
+								<p class="price">¥65</p>
+							</div>
+						</div>
+						<div class="hide">
+							<div class="item">
+								<img src="img/floor/7.jpg" />
+								<p>战地吉普三合一冲锋衣</p>
+								<p class="price">¥289</p>
+							</div>
+						</div>
+				</div>
+			</div>
+			<div class="floor" id="four">
+				<div class="floorTitle">
+					<span class="circle">4F</span><h2>家用电器</h2>
+					<ul>
+						<li class="red">热门<span class="active"></span></li>
+						<li>大家电<span></span></li>
+						<li>生活电器<span></span></li>
+					</ul>
+				</div>
+				<div class="floorContent">
+						<div>
+							<div class="item">
+								<img src="img/floor/4.jpg" />
+								<p>匡威男棒球开衫外套2017</p>
+								<p class="price">¥479</p>
+							</div>
+							<div class="item">
+								<img src="img/floor/4.jpg" />
+								<p>匡威男棒球开衫外套2017</p>
+								<p class="price">¥479</p>
+							</div>
+							<div class="item">
+								<img src="img/floor/4.jpg" />
+								<p>匡威男棒球开衫外套2017</p>
+								<p class="price">¥479</p>
+							</div>
+							<div class="item">
+								<img src="img/floor/4.jpg" />
+								<p>匡威男棒球开衫外套2017</p>
+								<p class="price">¥479</p>
+							</div>
+							<div class="item">
+								<img src="img/floor/4.jpg" />
+								<p>匡威男棒球开衫外套2017</p>
+								<p class="price">¥479</p>
+							</div>
+							<div class="item">
+								<img src="img/floor/4.jpg" />
+								<p>匡威男棒球开衫外套2017</p>
+								<p class="price">¥479</p>
+							</div>
+							<div class="item">
+								<img src="img/floor/4.jpg" />
+								<p>匡威男棒球开衫外套2017</p>
+								<p class="price">¥479</p>
+							</div>
+							<div class="item">
+								<img src="img/floor/4.jpg" />
+								<p>匡威男棒球开衫外套2017</p>
+								<p class="price">¥479</p>
+							</div>
+							<div class="item">
+								<img src="img/floor/4.jpg" />
+								<p>匡威男棒球开衫外套2017</p>
+								<p class="price">¥479</p>
+							</div>
+							<div class="item">
+								<img src="img/floor/4.jpg" />
+								<p>匡威男棒球开衫外套2017</p>
+								<p class="price">¥479</p>
+							</div>
+							<div class="item">
+								<img src="img/floor/4.jpg" />
+								<p>匡威男棒球开衫外套2017</p>
+								<p class="price">¥479</p>
+							</div>
+							<div class="item">
+								<img src="img/floor/4.jpg" />
+								<p>匡威男棒球开衫外套2017</p>
+								<p class="price">¥479</p>
+							</div>
+						</div>
+						<div class="hide">
+							<div class="item">
+								<img src="img/floor/6.jpg" />
+								<p>必迈一体跑步短袖T恤</p>
+								<p class="price">¥65</p>
+							</div>
+						</div>
+						<div class="hide">
+							<div class="item">
+								<img src="img/floor/7.jpg" />
+								<p>战地吉普三合一冲锋衣</p>
+								<p class="price">¥289</p>
+							</div>
+						</div>
+				</div>
+			</div>
+			<div class="floor" id="five">
+				<div class="floorTitle">
+					<span class="circle">5F</span><h2>电脑数码</h2>
+					<ul>
+						<li class="red">热门<span class="active"></span></li>
+						<li>电脑/平板<span></span></li>
+						<li>潮流影音<span></span></li>
+					</ul>
+				</div>
+				<div class="floorContent">
+						<div>
+							<div class="item">
+								<img src="img/floor/5.jpg" />
+								<p>匡威男棒球开衫外套2017</p>
+								<p class="price">¥479</p>
+							</div>
+							<div class="item">
+								<img src="img/floor/5.jpg" />
+								<p>匡威男棒球开衫外套2017</p>
+								<p class="price">¥479</p>
+							</div>
+							<div class="item">
+								<img src="img/floor/5.jpg" />
+								<p>匡威男棒球开衫外套2017</p>
+								<p class="price">¥479</p>
+							</div>
+							<div class="item">
+								<img src="img/floor/5.jpg" />
+								<p>匡威男棒球开衫外套2017</p>
+								<p class="price">¥479</p>
+							</div>
+							<div class="item">
+								<img src="img/floor/5.jpg" />
+								<p>匡威男棒球开衫外套2017</p>
+								<p class="price">¥479</p>
+							</div>
+							<div class="item">
+								<img src="img/floor/5.jpg" />
+								<p>匡威男棒球开衫外套2017</p>
+								<p class="price">¥479</p>
+							</div>
+							<div class="item">
+								<img src="img/floor/5.jpg" />
+								<p>匡威男棒球开衫外套2017</p>
+								<p class="price">¥479</p>
+							</div>
+							<div class="item">
+								<img src="img/floor/5.jpg" />
+								<p>匡威男棒球开衫外套2017</p>
+								<p class="price">¥479</p>
+							</div>
+							<div class="item">
+								<img src="img/floor/5.jpg" />
+								<p>匡威男棒球开衫外套2017</p>
+								<p class="price">¥479</p>
+							</div>
+							<div class="item">
+								<img src="img/floor/5.jpg" />
+								<p>匡威男棒球开衫外套2017</p>
+								<p class="price">¥479</p>
+							</div>
+							<div class="item">
+								<img src="img/floor/5.jpg" />
+								<p>匡威男棒球开衫外套2017</p>
+								<p class="price">¥479</p>
+							</div>
+							<div class="item">
+								<img src="img/floor/5.jpg" />
+								<p>匡威男棒球开衫外套2017</p>
+								<p class="price">¥479</p>
+							</div>
+						</div>
+						<div class="hide">
+							<div class="item">
+								<img src="img/floor/6.jpg" />
+								<p>必迈一体跑步短袖T恤</p>
+								<p class="price">¥65</p>
+							</div>
+						</div>
+						<div class="hide">
+							<div class="item">
+								<img src="img/floor/7.jpg" />
+								<p>战地吉普三合一冲锋衣</p>
+								<p class="price">¥289</p>
+							</div>
+						</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="linkPage">
+		<div class="comWidth">
+			<div class="linkItem">
+				<h4>消费者保障</h4>
+				<ul>
+					<li>保障范围</li>
+					<li>退货退款流程</li>
+					<li>服务中心</li>
+					<li>更多特色服务</li>
+				</ul>
+			</div>
+			<div class="linkItem">
+				<h4>新手上路</h4>
+				<ul>
+					<li>新手专区</li>
+					<li>消费警示</li>
+					<li>交易安全</li>
+					<li>24小时在线帮助</li>
+					<li>免费开店</li>
+				</ul>
+			</div>
+			<div class="linkItem">
+				<h4>付款方式</h4>
+				<ul>
+					<li>快捷支付</li>
+					<li>信用卡</li>
+					<li>余额宝</li>
+					<li>货到付款</li>
+				</ul>
+			</div>
+			<div class="linkItem">
+				<h4>慕淘特色</h4>
+				<ul>
+					<li>手机慕淘</li>
+					<li>慕淘信</li>
+					<li>大众评审</li>
+					<li>B格指南</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="footer">
+		<div class="comWidth">
+			<ul>
+				<li><a href="#">关于慕淘</a></li>
+				<li><a href="#">合作伙伴</a></li>
+				<li><a href="#">营销中心</a></li>
+				<li><a href="#">廉正举报</a></li>
+				<li><a href="#">联系客服</a></li>
+				<li><a href="#">开放平台</a></li>
+				<li><a href="#">诚征英才</a></li>
+				<li><a href="#">联系我们</a></li>
+				<li><a href="#">网站地图</a></li>
+				<li><a href="#">法律声明</a></li>
+				<li><a href="#">知识产权</a></li>
+			</ul>
+			<p>&copy;&nbsp;2017&nbsp;imooc.com&nbsp;All&nbsp;Rights&nbsp;Reserved</p>
+		</div>
+	</div>
+
+	<div class="tipNavPage">
+		<div class="comWidth">
+			<ul class="leftNav">
+				<li><a href="#one">1F</a></li>
+				<li><a href="#two">2F</a></li>
+				<li><a href="#three">3F</a></li>
+				<li><a href="#four">4F</a></li>
+				<li><a href="#five">5F</a></li>
+			</ul>
+			<ul class="rightNav">
+				<li><img src="img/icon/13.png"></li>
+				<li><img src="img/icon/14.png"></li>
+				<li><img src="img/icon/15.png"></li>
+				<li><img src="img/icon/16.png"></li>
+				<li><a href="#top"><img src="img/icon/17.png"></a></li>
+			</ul>
+		</div>
+	</div>
+</body>
+</html>
